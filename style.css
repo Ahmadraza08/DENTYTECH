@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: glory;
+}
+
+@font-face {
+    font-family: glory;
+    src: url(Gilroy-Regular.ttf);
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    transition: ease .5s;
+}
+
+h3:hover{
+    background-color: rgb(4, 152, 211);
+    color: #fff;
+    border: none;
+    padding: 9.5px 15px;
+}
+
+i{
+    border: 2px solid black;
+    padding: 5px 5px;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+i:hover{
+    background-color: rgb(4, 152, 211);
+    color: #fff;
+    border: none;
+    padding: 9.5px 10px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+button{
+    padding: 7px 15px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .5s;
+}
+
+button:hover{
+    background-color: rgb(4, 152, 211);
+    color: #fff;
+    border: none;
+    padding: 9.5px 15px;
+}
+
+#btn{
+    background-color: rgb(4, 152, 211);
+    color: #fff;
+    border: none;
+    padding: 9.5px 15px;
+    transition: .5s;
+}
+
+#btn:hover{
+    padding: 7px 15px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+}
+
+#head{
+    font-size: 150px;
+    font-weight: 600;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 100%;
+    text-align: center;
+}
+
+
+#p1{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    border-radius: 30px;
+    transform: translate(-50%, 50%) rotate(-30deg);
+}
+
+#p2{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    border-radius: 30px;
+    transform: translate(-50%, 50%) rotate(-20deg);
+}
+
+#p3{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    border-radius: 30px;
+    transform: translate(-50%, 50%) rotate(-10deg);
+}
+
+#p4{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    border-radius: 30px;
+    transform: translate(-50%, 50%) rotate(0deg);
+}
