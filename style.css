@@ -109,7 +109,7 @@ button:hover{
     font-size: 150px;
     font-weight: 600;
     position: absolute;
-    top: 30%;
+    top: 0%;
     left: 50%;
     transform: translate(-50%, 50%);
     width: 100%;
